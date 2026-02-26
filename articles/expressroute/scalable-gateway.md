@@ -42,7 +42,7 @@ You can move to ErGwScale using either an upgrade or migration process, dependin
 
 ### Upgrade options
 
-If you have an existing gateway using the ErGw1Az, ErGw2Az, or ErGw3Az SKU, you can [upgrade](expressroute-howto-add-gateway-portal-resource-manager.md#upgrade-the-gateway-sku) directly to the scalable gateway SKU. No migration tool is required. You can perform upgrades through the Azure portal or by using PowerShell.
+If you have an existing gateway using the ErGw1Az, ErGw2Az, or ErGw3Az SKU, you can [upgrade](expressroute-howto-add-gateway-portal-resource-manager.md#upgrade-the-gateway-sku) directly to the scalable gateway SKU. When upgrading from ErGw1Az, ErGw2Az, or ErGw3Az to ErGwScale, the gateway subnet must be at least /26. Otherwise, the deployment will fail.No migration tool is required. You can perform upgrades through the Azure portal or by using PowerShell.
 
 The upgrade process can take up to 2 hours to complete. During this time, your gateway remains available without downtime.
 
